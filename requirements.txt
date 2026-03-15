@@ -1,0 +1,10 @@
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-huggingface==0.1.2
+langchain-chroma==0.2.4
+chromadb==0.6.3
+sentence-transformers==4.1.0
+ollama==0.4.8
+pypdf==5.4.0
+streamlit==1.45.0
+requests==2.32.3

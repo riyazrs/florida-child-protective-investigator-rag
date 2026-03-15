@@ -1,0 +1,39 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Downloaded source documents (may contain sensitive data; re-downloadable via ingest.py)
+data/*
+!data/.gitkeep
+
+# ChromaDB persisted vector store (large binary, machine-specific, rebuilt via ingest.py)
+florida_db/*
+!florida_db/.gitkeep
+
+# HuggingFace model cache (if redirected to project folder)
+models/
+*.bin
+*.safetensors
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Environment files (safety net — no secrets are used in this project)
+.env
+.env.*
